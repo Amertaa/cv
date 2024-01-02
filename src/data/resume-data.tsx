@@ -17,17 +17,19 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Marsa Naufal",
   initials: "MN",
   location: "Kalimantan Timur, Indonesia, Samarinda",
   locationLink: "https://www.google.com/maps/place/Samarinda",
-  about: "",
-  summary: "",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  // personalWebsiteUrl: "https://jarocki.me",
+  about: "Software Engineer",
+  personalWebsiteUrl: "http://google.com/404",
+  summary:
+    "Saya adalah seorang individu yang dapat berkomunikasi dengan jelas dan mampu menyampaikan ide-ide inovatif dan kreatif di dalam lingkungan organisasi maupun lingkungan kerja. Selain itu, saya mampu beradaptasi dengan cepat di lingkungan sekitar, dan dapat membangun sebuah hubungan yang profesional dan solid dengan orang-orang sekitarnya.",
+  avatarUrl:
+    "https://avatars.githubusercontent.com/u/88637179?s=400&u=e225d3c2a884517a7726bdd3187a870a5e43d1ca&v=4",
   contact: {
     email: "marsanaufal@protonmail.com",
     tel: "+6281257266152",
@@ -42,17 +44,12 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/mrsanaufal/",
         icon: LinkedInIcon,
       },
-      // {
-      //   name: "X",
-      //   url: "https://x.com/BartoszJarocki",
-      //   icon: XIcon,
-      // },
     ],
   },
   education: [
     {
       school: "Institut Teknologi Kalimantan",
-      degree: "Electrical Engineering",
+      degree: "Teknik Elektro",
       start: "2023",
       end: "Sekarang",
     },
@@ -69,20 +66,22 @@ export const RESUME_DATA = {
       link: "https://green-nusa.net/",
       badges: ["Hybrid"],
       title: "Backend Developer",
-      logo: ParabolLogo,
+      // logo: ParabolLogo,
       start: "Jun 2023",
-      end: "Dec 2023",
-      description: "",
+      end: "Des 2023",
+      description:
+        "Membangun dan memperbaiki sebuah website profesional di bagian sistem suatu website untuk perusahaan-perusahaan yang membutuhkan, guna meningkatkan produktivitas dalam proses pekerjaan mereka. Yang melibatkan beberapa Framework seperti Laravel, Tailwind, Boostrap, hingga database seperti MySQL.",
     },
     {
       company: "PT. Barqun Digital Teknologi",
       link: "https://barqun.com",
       badges: ["On-site"],
-      title: "Web Developer",
-      logo: ClevertechLogo,
+      title: "Website Developer",
+      // logo: ClevertechLogo,
       start: "Mar 2022",
-      end: "May 2022",
-      description: "",
+      end: "Mei 2022",
+      description:
+        "Memperbaiki sebuah website profesional untuk beberapa perusahaan yang dan melibatkan beberapa Teknologi seperti Bootstrap, Tailwind hingga SCSS/SASS.",
     },
   ],
   skills: [
@@ -90,164 +89,60 @@ export const RESUME_DATA = {
     "Wordpress",
     "MySQL",
     "Arduino",
+    "Git",
     "UI/UX",
     "Tailwind",
     "SCSS",
     "Bootstrap",
+    "JavaScript",
   ],
   projects: [
     {
       title: "Trackrecord",
-      techStack: ["Main Project", "Laravel", "MySQL", "javaScript"],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        // label: "consultly.com",
-        // href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Backend Developer",
+        "Laravel",
+        "MySQL",
+        "Vanilla javaScript",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
+        "Aplikasi website guna mengorganisir sebuah sistematika pada perusahaan",
     },
     {
-      title: "Evercast",
+      title: "Bumbu Fried Chicken",
+      techStack: ["Backend Developer", "Wordpress", "Elementor"],
+      description:
+        "Website profile untuk meng-promosikan sebuah UMKM yang ada di Samarinda",
+    },
+    {
+      title: "E-Cast",
+      techStack: ["Backend Developer", "Laravel", "MySQL", "Boostrap"],
+      description:
+        "Sebuah aplikasi website guna menghitung pemasukan dalam suatu perusahaan.",
+    },
+    {
+      title: "Website Profile Barqun Digital",
+      techStack: ["Website Developer", "Bootstrap", "SCSS", "UI/UX"],
+      description:
+        "Website profile untuk meningkatkan engagement suatu Startup Teknologi di Samarinda",
+    },
+    {
+      title: "E-books",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Backend Developer",
+        "PHP",
+        "MySQL",
+        "Tailwind",
+        "JavaScript",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
+        "Aplikasi website yang digunakan untuk membeli sebuah buku digital",
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Parking app",
+      techStack: ["Backend Developer", "PHP", "MySQL", "Tailwind"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+        "Web parkir merupakan aplikasi website guna meningkatkan keamanan dan produktifitas dalam suatu parkiran",
     },
   ],
 } as const;
